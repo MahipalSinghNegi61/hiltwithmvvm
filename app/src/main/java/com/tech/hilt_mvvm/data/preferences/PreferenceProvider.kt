@@ -5,6 +5,7 @@ import android.content.SharedPreferences
 
 const val userName = "USERNAME"
 
+
 class PreferenceProvider(context: Context) {
 
     var preferences: SharedPreferences = context.getSharedPreferences(context.packageName,
